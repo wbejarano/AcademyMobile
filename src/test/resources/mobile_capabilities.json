@@ -1,0 +1,8 @@
+{
+	"deviceName": "emulator-5554",
+	"platformName": "Android",
+	"platformVersion": "8.0.0",
+	"appPackage": "com.espn.score_center",
+	"appActivity": "com.espn.sportscenter.ui.LaunchActivity",
+	"app": "C:/Users/william.bejarano/Downloads/ESPN_v6_4_4.apk" 
+}

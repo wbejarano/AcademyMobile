@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My suite">
+	<!-- some parameter -->
+	<parameter name="name" value="value" />
+	<!-- some parameter -->
+	<parameter name="name" value="value"  />
+
+	<test name="Failed_assertive_login_test">
+		<groups>
+			<run>
+				<include name="login_assertive" />
+				<include name="navigate_bar_test" />
+				<include name="create_account_test" />
+				<include name="feed_back_test" />
+				<include name="settings_test" />
+			</run>
+		</groups>
+		<classes>
+			<class name="tests.LoginAppTest" />
+		</classes>
+	</test>
+</suite> 
